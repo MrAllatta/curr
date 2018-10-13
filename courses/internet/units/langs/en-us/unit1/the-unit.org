@@ -32,13 +32,9 @@ Markdown is a markup language that makes it easier to write HTML pages. The same
 
 * Git, Github, and Pages
 
-
 [[file:images/structure-style-house.png]]
 @bitmap{images/structure-style-house.png}
 
-
-
-<<<<<<< HEAD
 * HTML Structure
 An HTML document is built up of tags that describe the meaning of the
 content between the tags. The opening tags is a surrounded by two
@@ -59,5 +55,5 @@ you change how somethings looks and see the change at the same
 time. HTML is not a WYSIWYG. Instead HTML is a markup language, which
 is a language for describing how a document should look.
 
-=======
->>>>>>> 4f802def174099d59c653695c696730a738668d6
+
+
