@@ -52,4 +52,8 @@ exercise-list.rkt
 TeacherWorkbook.pdf
 back-matter.pdf
 front-matter.pdf
-
+courses/algebra-pyret/resources/workbook/langs/en-us/front-matter.pdf
+courses/algebra-pyret/resources/workbook/langs/en-us/pages-sols/
+courses/algebra/resources/workbook/langs/en-us/pages-sols/
+courses/blank-course/resources/workbook/langs/en-us/pages-sols/
+courses/reactive/resources/workbook/langs/en-us/pages-sols/
