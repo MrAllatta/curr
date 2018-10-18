@@ -31,8 +31,32 @@ Markdown is a markup language that makes it easier to write HTML pages. The same
 # My First Heading
 
 * Git, Github, and Pages
+<<<<<<< HEAD
 [[file:images/structure-style-house.png]]
 @bitmap{images/structure-style-house.png}
+
+[[file:images/structure-style-house.png]]
+@bitmap{images/structure-style-house.png}
+
+* HTML Structure
+An HTML document is built up of tags that describe the meaning of the
+content between the tags. The opening tags is a surrounded by two
+angle brackets <>. The closing tag is also surrounded by angle
+brackets <>, but also begins with a forward slash /. For example a
+normal paragraph of text like you would read in a book would look like
+this <p>I do not like green eggs and ham. I do not like them Sam I
+Am.</p>
+
+How is HTML structure is similar to a Racket expression? A Racket
+expression begins with an opening parenthesis and ends with a closing
+parenthesis. Opening a closing marks set the boundary for every part
+of the document. Just like in programming, HTML can be nested.
+
+The opposite of HTML is called a WYSIWYG, which stands for "What you
+see is what you get." Word processors like Google Docs and Word let
+you change how somethings looks and see the change at the same
+time. HTML is not a WYSIWYG. Instead HTML is a markup language, which
+is a language for describing how a document should look.
 
 * Adding Images
 Your github posts are written in a markup language called
@@ -45,6 +69,32 @@ in HTML I wrap the heading in an opening and closing h1 tag like this:
 ```<h1>My Heading</h1>```. In Markdown to make a heading I simply put a # (hash) at the
 beginning of the line followed by a space, like this: ```# My
 Heading```
+=======
+
+[[file:images/structure-style-house.png]]
+@bitmap{images/structure-style-house.png}
+
+* HTML Structure
+An HTML document is built up of tags that describe the meaning of the
+content between the tags. The opening tags is a surrounded by two
+angle brackets <>. The closing tag is also surrounded by angle
+brackets <>, but also begins with a forward slash /. For example a
+normal paragraph of text like you would read in a book would look like
+this <p>I do not like green eggs and ham. I do not like them Sam I
+Am.</p>
+
+How is HTML structure is similar to a Racket expression? A Racket
+expression begins with an opening parenthesis and ends with a closing
+parenthesis. Opening a closing marks set the boundary for every part
+of the document. Just like in programming, HTML can be nested.
+
+The opposite of HTML is called a WYSIWYG, which stands for "What you
+see is what you get." Word processors like Google Docs and Word let
+you change how somethings looks and see the change at the same
+time. HTML is not a WYSIWYG. Instead HTML is a markup language, which
+is a language for describing how a document should look.
+
+>>>>>>> origin/master
 
 Images can be added to your posts by using the Markdown syntax
 ```![Alt Text](url)```
