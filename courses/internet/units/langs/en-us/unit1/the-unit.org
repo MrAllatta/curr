@@ -31,10 +31,52 @@ Markdown is a markup language that makes it easier to write HTML pages. The same
 # My First Heading
 
 * Git, Github, and Pages
-
-
 [[file:images/structure-style-house.png]]
 @bitmap{images/structure-style-house.png}
 
+* Adding Images
+Your github posts are written in a markup language called
+Markdown. All web pages must eventually become HTML, but the syntax
+for HTML cumbersome for writing simple files. In our learning blogs
+the HTML for building pages is kept in a separate file called a
+layout. The actual content of our posts is written in a Markdown
+file, which has a more simple syntax. For example if I want a heading
+in HTML I wrap the heading in an opening and closing h1 tag like this:
+```<h1>My Heading</h1>```. In Markdown to make a heading I simply put a # (hash) at the
+beginning of the line followed by a space, like this: ```# My
+Heading```
 
+Images can be added to your posts by using the Markdown syntax
+```![Alt Text](url)```
+** Activity 
+Download the output from one of your image programs. Create a
+directory called "images" and upload your image file to that
+directory. Create a new post and add an image link to your post using
+the Markdown image syntax. 
 
+* Learning Reflections
+** Week 1
+** Week 2
+** Week 3
+** Week 4
+Reflect on the work from the week. Use the structure
+*** Our Learning
+- Summarize
+- Connect
+*** My learning
+- Reflect on contribution
+- Discuss needs
+ 
+** Week 5
+Flag Project: Add an image and code snippet from your flag program to your post
+this week. Describe the process that you used to create a flag program. In this
+week's reflection, reflect on the process to design a program to display the
+geometry of a national flag. Reflect on the process to develop an original
+program. You must discuss at least two points in the process that were
+challenges or opportunities that you faced, including: decision steps, learning
+new functions, addressing feedback messages, or any other thinking work you did
+when designing your program. 
+** Week 6
+Focus on making connections. Connect between an activity and an objective,
+connect between two learning objectives (class meetings) or between two types of
+data structure discussed in the class.

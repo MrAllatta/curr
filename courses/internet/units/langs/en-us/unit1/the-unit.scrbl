@@ -9,8 +9,8 @@
 @unit-lessons{
   @lesson/studteach[
     #:title "Intro"
-    #:duration "5 minutes"
-    #:overview ""
+    #:duration "60 minutes"
+    #:overview "Students create a learning blog to hold weekly reflections and portfolio projects. The learning blog continues to be customized over the year as we learn more about the Web and the Internet"
     #:learning-objectives @itemlist[]
     #:evidence-statements @itemlist[]
     #:product-outcomes @itemlist[]
@@ -36,20 +36,24 @@
     ]{
         @points[
 	  @point{
-	    @student[#:title ""]{
-	      @noSlideText{}
-	      @slideText{}
+	    @student[#:title "Learning Blog"]{
+		@itemlist[
+			@item{Create an account at github.com}
+			@item{Your username must match your email address}
+			@item{Use a strong password using a personal password algorithm.}]
+	      @noSlideText{We will be creating a learning blog that will hold our reflections and portfolio projects throughout this school year. Our learning blog will be hosted on GitHub. Create your account using your school domain username (the part of your email address before the afsenyc.org}
 	      }
-            @teacher{
-                @itemlist[
-		  @item{}
-     		    ]
+            @teacher{The learning blog is one of the primary assessment vehicles of the classroom. Each week students write and publish a reflection on their personal learning journey. The prompt for each week changes as the class moves to focus on different aspects of computational thinking and artifact creation. Refocus the writing prompts as they become stronger at different aspects of their reflections. For example, when students become comfortable writing summaries of the learning activities and classroom routines, refocus them on finding connections between learning activities and computing concepts.
 		  }
                 }
 	@point{
-	    @student[#:title ""]{
-	      @noSlideText{}
-	      @noSlideText{}
+	    @student[#:title "The Web"]{
+	      @noSlideText{A web page is a collection of computer files that can be read by web browser software. The Web is a system of interlinked files (documents or pages) often accessed via the Internet. Using the Internet web pages can be sent and received all across the world. One type of file that is used to create a web page is called an HTML file. The name of a file usually ends with an extension that tells us what type of file it is. For example if I have a website with a page called 'home' then the html file would be called 'home.html'. Another type of file that is used to create a web page is called a CSS file. The CSS file that goes along with our home page might be called 'home.css'.}
+	      @itemlist[
+		@item{Web - a system of interlinked files often accessed via the Internet}
+		@item{Files have a name and a type.}
+		@item{Repositories are containers for a project}
+		@item{Directories are containers for files and other directories}]
 	      }
             @teacher{
 	      Set expectations and rules for the class.
@@ -61,27 +65,26 @@
                 }
 	@point{
 	    @student[#:title ""]{
-	      @noSlideText{}
-	      @slideText{}
+	      @noSlideText{foo}
+	      @slideText{foo}
 	      }
             @teacher{
                 @itemlist[
-		  @item{}
+		  @item{foo}
      		    ]
 		  }
                 }
 	@point{
 	    @student[#:title ""]{
-	      @noSlideText{}
-	      @slideText{}
+	      @noSlideText{foo}
+	      @slideText{foo}
 	      }
             @teacher{
                 @itemlist[
-		  @item{}
+		  @item{foo}
      		    ]
 		  }
                 }
-		
               ]
          }
      }
