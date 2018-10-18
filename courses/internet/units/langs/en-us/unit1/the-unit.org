@@ -35,9 +35,6 @@ Markdown is a markup language that makes it easier to write HTML pages. The same
 [[file:images/structure-style-house.png]]
 @bitmap{images/structure-style-house.png}
 
-[[file:images/structure-style-house.png]]
-@bitmap{images/structure-style-house.png}
-
 * HTML Structure
 An HTML document is built up of tags that describe the meaning of the
 content between the tags. The opening tags is a surrounded by two
@@ -93,7 +90,20 @@ see is what you get." Word processors like Google Docs and Word let
 you change how somethings looks and see the change at the same
 time. HTML is not a WYSIWYG. Instead HTML is a markup language, which
 is a language for describing how a document should look.
+file:images/structure-style-house.png]]
+@bitmap{images/structure-style-house.png}
 
+* Adding Images
+Your github posts are written in a markup language called
+Markdown. All web pages must eventually become HTML, but the syntax
+for HTML cumbersome for writing simple files. In our learning blogs
+the HTML for building pages is kept in a separate file called a
+layout. The actual content of our posts is written in a Markdown
+file, which has a more simple syntax. For example if I want a heading
+in HTML I wrap the heading in an opening and closing h1 tag like this:
+```<h1>My Heading</h1>```. In Markdown to make a heading I simply put a # (hash) at the
+beginning of the line followed by a space, like this: ```# My
+Heading```
 >>>>>>> origin/master
 
 Images can be added to your posts by using the Markdown syntax
