@@ -1,0 +1,106 @@
+* Learning Blog
+We will be creating a learning blog that will hold our reflections and portfolio projects throughout this school year.
+
+Our learning blog will be hosted on GitHub. Create your account using your school domain username (the part of your email address before the @afsenyc.org
+
+** Slide
+- Create a gihub.com account.
+- Use a strong password using a personal password algorithm
+- 
+* The Web
+A web page is a collection of computer files that can be read by web browser software. The @vocab{Web} is a system of interlinked files (documents or pages) often accessed via the Internet. Using the Internet web pages can be sent and received all across the world. One type of file that is used to create a web page is called an HTML file. The name of a file usually ends with an extension that tells us what type of file it is. For example if I have a website with a page called 'home' then the html file would be called 'home.html'. Another type of file that is used to create a web page is called a CSS file. The CSS file that goes along with our home page might be called 'home.css'.
+
+* HTML and CSS
+Web pages have a structure and a style. The structure of a page is like the frame of a building. It is the internal structure of a building that gives it its shape. The structure of a webpage is written in HTML. The style of a page is like the exterior of the building the same building may be painted many colors without changing its structure. The style of a page is written in CSS.
+
+In a web page some of the styles include the color of the font and what font family you want to display your text. The size of the font and the color of the background can also be changed. There are many more elements of style that can be changed on you web page.
+
+* Rendering
+
+A web page is @vocab{render}ed by a @vocab{web browser}. A web browser is a specific software application such as Mozilla Firefox or Google Chrome that is designed to display or render the page. If no style is specified the browser will apply a default style to the page.
+
+* Markup
+HTML is an example of a markup language. These languages enable us to specify the structure and content of a document. Another example of a markup language is Markdown, another is LaTex. We will look at these languages in future lessons.
+
+In HTML we can specify that our content is a heading by wrapping it in a heading tag.
+<h1> My First Heading </h1>
+In a heading tag the content lives between an opening tag <h1> and a closing tag </h1>.
+@activity[]{What is the difference between an opening and closing tag?}
+
+Markdown is a markup language that makes it easier to write HTML pages. The same heading in Markdown would be
+# My First Heading
+
+* Git, Github, and Pages
+
+[[file:images/structure-style-house.png]]
+@bitmap{images/structure-style-house.png}
+
+* HTML Structure
+An HTML document is built up of tags that describe the meaning of the
+content between the tags. The opening tags is a surrounded by two
+angle brackets <>. The closing tag is also surrounded by angle
+brackets <>, but also begins with a forward slash /. For example a
+normal paragraph of text like you would read in a book would look like
+this <p>I do not like green eggs and ham. I do not like them Sam I
+Am.</p>
+
+How is HTML structure is similar to a Racket expression? A Racket
+expression begins with an opening parenthesis and ends with a closing
+parenthesis. Opening a closing marks set the boundary for every part
+of the document. Just like in programming, HTML can be nested.
+
+The opposite of HTML is called a WYSIWYG, which stands for "What you
+see is what you get." Word processors like Google Docs and Word let
+you change how somethings looks and see the change at the same
+time. HTML is not a WYSIWYG. Instead HTML is a markup language, which
+is a language for describing how a document should look.
+file:images/structure-style-house.png]]
+@bitmap{images/structure-style-house.png}
+
+* Adding Images
+Your github posts are written in a markup language called
+Markdown. All web pages must eventually become HTML, but the syntax
+for HTML cumbersome for writing simple files. In our learning blogs
+the HTML for building pages is kept in a separate file called a
+layout. The actual content of our posts is written in a Markdown
+file, which has a more simple syntax. For example if I want a heading
+in HTML I wrap the heading in an opening and closing h1 tag like this:
+```<h1>My Heading</h1>```. In Markdown to make a heading I simply put a # (hash) at the
+beginning of the line followed by a space, like this: ```# My
+Heading```
+>>>>>>> origin/master
+
+Images can be added to your posts by using the Markdown syntax
+```![Alt Text](url)```
+** Activity 
+Download the output from one of your image programs. Create a
+directory called "images" and upload your image file to that
+directory. Create a new post and add an image link to your post using
+the Markdown image syntax. 
+
+* Learning Reflections
+** Week 1
+** Week 2
+** Week 3
+** Week 4
+Reflect on the work from the week. Use the structure
+*** Our Learning
+- Summarize
+- Connect
+*** My learning
+- Reflect on contribution
+- Discuss needs
+ 
+** Week 5
+Flag Project: Add an image and code snippet from your flag program to your post
+this week. Describe the process that you used to create a flag program. In this
+week's reflection, reflect on the process to design a program to display the
+geometry of a national flag. Reflect on the process to develop an original
+program. You must discuss at least two points in the process that were
+challenges or opportunities that you faced, including: decision steps, learning
+new functions, addressing feedback messages, or any other thinking work you did
+when designing your program. 
+** Week 6
+Focus on making connections. Connect between an activity and an objective,
+connect between two learning objectives (class meetings) or between two types of
+data structure discussed in the class.
