@@ -1,7 +1,7 @@
 * Learning Blog
-We will be creating a learning blog that will hold our reflections and portfolio projects throughout this school year.
-
 Our learning blog will be hosted on GitHub. Create your account using your school domain username (the part of your email address before the @afsenyc.org
+
+We will be creating a learning blog that will hold our reflections and portfolio projects throughout this school year.
 
 ** Slide
 - Create a gihub.com account.
@@ -80,8 +80,13 @@ the Markdown image syntax.
 
 * Learning Reflections
 ** Week 1
+Describe your impressions of the class.
+Describe a challenge that you faced this week.
+
 ** Week 2
+
 ** Week 3
+
 ** Week 4
 Reflect on the work from the week. Use the structure
 *** Our Learning
@@ -104,3 +109,19 @@ when designing your program.
 Focus on making connections. Connect between an activity and an objective,
 connect between two learning objectives (class meetings) or between two types of
 data structure discussed in the class.
+** Week 7
+10th: Abstraction over an expression means hiding the details of the
+expression except for the part that you want exposed or changeable. In
+the series of expressions 2 * 5, 2 * 9, 2 * 29, 2 * 13 a pattern of
+multiplying by two is repeated we can abstract over that pattern by
+describing a function called double which takes in a number and
+multiplies that number by two. fun double(n): n * 2 end
+9th: ; gt : Number -> Image is the contract of a function that
+produces green triangles whenever we give that function a
+side-length. For example, 
+(EXAMPLE (gt 10) ; should produce the same value as
+         (triangle 10 "solid" "green"))
+Describe a function called dot which takes in a color and produces a
+small dot with the given color. Use the design recipe to complete the
+steps. Describe each step in your reflection.
+Describe the differnce between a value definition and a function definition.
