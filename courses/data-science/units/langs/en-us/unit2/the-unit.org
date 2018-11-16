@@ -1,4 +1,3 @@
-* 
 * What Data Do We Need
 ** We would like to know ...
 *** What questions do we have?
@@ -7,10 +6,9 @@ of students.
 We would like to know if the tap water in our city is healthier than
 the tap water in another city.
 *** What data would we need to collect? 
-
 *** How would you measure healthiness of water?
 *** Over what timeframe would you ideally like to collect your data?
 *** How would you ensure your sampling is fair?
 *** How would you measure "better grades"?
 *** Are there any threats to validity to keep in mind while collecting data?
-
+* 
