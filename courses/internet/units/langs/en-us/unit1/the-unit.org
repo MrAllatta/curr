@@ -125,3 +125,10 @@ Describe a function called dot which takes in a color and produces a
 small dot with the given color. Use the design recipe to complete the
 steps. Describe each step in your reflection.
 Describe the differnce between a value definition and a function definition.
+** Week 8 and 9
+*** Intro
+Beginning design recipe. Variables are place holders. Functions are
+shortcuts for expressions that expose part of the expression that we
+want to change. Functions produce a new value for each input. Value
+definitions are bound and do not change.
+*** 
