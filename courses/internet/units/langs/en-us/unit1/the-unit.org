@@ -68,7 +68,7 @@ in HTML I wrap the heading in an opening and closing h1 tag like this:
 ```<h1>My Heading</h1>```. In Markdown to make a heading I simply put a # (hash) at the
 beginning of the line followed by a space, like this: ```# My
 Heading```
->>>>>>> origin/master
+
 
 Images can be added to your posts by using the Markdown syntax
 ```![Alt Text](url)```
@@ -131,4 +131,8 @@ Beginning design recipe. Variables are place holders. Functions are
 shortcuts for expressions that expose part of the expression that we
 want to change. Functions produce a new value for each input. Value
 definitions are bound and do not change.
-*** 
+*** AP
+Connect data definitions to data tables as abstractions. One describes
+and creates the possibility for detail, the other is the
+details. Abstractions give us the ability to generate new and
+unexpected possibilities like the interactions in a video game. 
